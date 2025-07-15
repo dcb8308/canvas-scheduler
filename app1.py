@@ -22,7 +22,7 @@ label2.pack()
 input2 = tk.Entry()
 input2.pack()
 
-label3 = tk.Label(window, text = 'love you baby have fun in school :) <3')
+label3 = tk.Label(window, text = 'Have fun in school')
 label3.pack()
 
 
