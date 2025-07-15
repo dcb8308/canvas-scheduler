@@ -62,7 +62,7 @@ def generate_schedule():
     print("Status Code:", response.status_code)
 
     if response.status_code != 200:
-        print("❌ Failed to fetch assignments.")
+        print("Failed to fetch assignments.")
         print("Response Text:", response.text)
         exit()
 
@@ -115,7 +115,7 @@ def generate_schedule():
             ws.append([name, date, time, group_weight, assignment_weight])
 
     wb.save(filename)
-    status_label.config(text=f"✅ Saved as '{filename}'")
+    status_label.config(text=f"Saved as '{filename}'")
 
 
 submit = tk.Button(window, text = 'Generate your schedule!', width = 20, command = generate_schedule)
