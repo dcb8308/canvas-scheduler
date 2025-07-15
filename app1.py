@@ -29,7 +29,7 @@ label3.pack()
 
 def generate_schedule():
     # === Setup ===
-    API_TOKEN = input1.get().strip() #'1303~2GYMDQyrt8hhP48TzGmL2ZVmmLxu2ACyufPaGECNePyQt8LLE2nBvxXkKx42QZP4'  # Replace this!
+    API_TOKEN = input1.get().strip() 
     COURSE_ID = input2.get().strip() #'220239'
     BASE_URL = 'https://baylor.instructure.com/api/v1'
 
